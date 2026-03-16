@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priya Bhanu - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #fff;
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #0066cc;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            color: #0066cc;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .header .title {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 14px;
+        }
+
+        .contact-info a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            color: #0066cc;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .summary {
+            text-align: justify;
+            line-height: 1.7;
+        }
+
+        .experience-item, .education-item, .project-item {
+            margin-bottom: 20px;
+        }
+
+        .company-header, .degree-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+        }
+
+        .company-name, .degree-name {
+            font-size: 16px;
+            font-weight: 700;
+            color: #333;
+        }
+
+        .job-title {
+            font-size: 14px;
+            color: #0066cc;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .date-location {
+            font-size: 13px;
+            color: #666;
+        }
+
+        .project-name {
+            font-size: 14px;
+            color: #0066cc;
+            font-style: italic;
+            margin-bottom: 8px;
+            padding-left: 10px;
+            border-left: 3px solid #0066cc;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 6px;
+            text-align: justify;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .skill-category {
+            margin-bottom: 10px;
+        }
+
+        .skill-category strong {
+            color: #0066cc;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .skill-category ul {
+            padding-left: 20px;
+        }
+
+        .skill-category li {
+            margin-bottom: 4px;
+        }
+
+        .tech-stack {
+            font-size: 13px;
+            color: #666;
+            margin-top: 8px;
+            padding: 8px 12px;
+            background: #f5f5f5;
+            border-radius: 4px;
+        }
+
+        .tech-stack strong {
+            color: #333;
+        }
+
+        @media print {
+            body {
+                padding: 20px;
+            }
+
+            .header h1 {
+                color: #000;
+            }
+
+            .section-title {
+                color: #000;
+                border-bottom-color: #000;
+            }
+
+            a {
+                text-decoration: none;
+                color: #333;
+            }
+        }
+
+        @page {
+            margin: 15mm;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Priya Bhanu</h1>
+        <p class="title">Java Backend Developer</p>
+        <div class="contact-info">
+            <span>📧 priya@example.com</span>
+            <span>📱 +91 XXXXX XXXXX</span>
+            <span>🔗 <a href="https://github.com/Priya-Bhanu07">github.com/Priya-Bhanu07</a></span>
+            <span>💼 <a href="https://www.linkedin.com/in/bhanu-priya-0547673b7/">linkedin.com/in/bhanu-priya-0547673b7</a></span>
+        </div>
+    </div>
+
+    <!-- Professional Summary -->
+    <div class="section">
+        <h2 class="section-title">Professional Summary</h2>
+        <p class="summary">
+            Results-driven Java Backend Developer with 3 years of experience in enterprise application development and professional internships. 
+            Skilled in designing scalable microservices, optimizing application performance, and building robust backend systems using Java 17, 
+            Spring Boot, and cloud technologies. Proven ability to modernize legacy systems, implement secure coding practices, and deliver 
+            high-performance backend solutions.
+        </p>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <strong>Languages & Frameworks</strong>
+                <ul>
+                    <li>Java 17, Spring Boot, Spring MVC</li>
+                    <li>Hibernate, JPA, Microservices</li>
+                    <li>Spring Security, Spring AI</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <strong>Web & APIs</strong>
+                <ul>
+                    <li>RESTful APIs, JavaScript</li>
+                    <li>HTML5, CSS, jQuery, AJAX</li>
+                    <li>Bootstrap, React</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <strong>DevOps & Cloud</strong>
+                <ul>
+                    <li>Docker, Kubernetes</li>
+                    <li>AWS, CI/CD</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <strong>Databases</strong>
+                <ul>
+                    <li>PostgreSQL</li>
+                    <li>SQL Server</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work Experience -->
+    <div class="section">
+        <h2 class="section-title">Work Experience</h2>
+        
+        <div class="experience-item">
+            <div class="company-header">
+                <div>
+                    <div class="company-name">KOTT SOFTWARE</div>
+                    <div class="job-title">Software Engineer</div>
+                </div>
+                <div class="date-location">Oct 2023 – Jun 2025 | Cochin</div>
+            </div>
+            <div class="project-name">Project: EASE Application – Export and Import Automation System</div>
+            <ul>
+                <li>Migrated enterprise applications to Java 8, improving performance and scalability</li>
+                <li>Designed and maintained modular backend services using Spring Boot, Hibernate, and JPA</li>
+                <li>Developed responsive UI components using Bootstrap and jQuery to enhance user experience</li>
+                <li>Integrated Jasper Reports for generating analytical and operational reports across modules</li>
+                <li>Optimized SQL queries and Hibernate mappings, reducing response time by 30%</li>
+            </ul>
+            <div class="tech-stack"><strong>Technologies:</strong> Java 8, Spring Boot, Hibernate, JPA, Bootstrap, jQuery, Jasper Reports, SQL</div>
+        </div>
+
+        <div class="experience-item">
+            <div class="company-header">
+                <div>
+                    <div class="company-name">DAIVIKSOFT TECHNOLOGIES</div>
+                    <div class="job-title">Software Engineer</div>
+                </div>
+                <div class="date-location">Jun 2022 – Jun 2023 | Cochin</div>
+            </div>
+            <div class="project-name">Project: Ritz-Carlton Yacht Collection & Concierge Portal</div>
+            <ul>
+                <li>Developed high-availability backend services for reservation management using Java and Spring Boot</li>
+                <li>Designed and implemented REST APIs for guest profiles, spa bookings, and dining reservations</li>
+                <li>Applied strong input validation and security measures to maintain application reliability</li>
+                <li>Assisted in migrating legacy systems to modern microservices architecture</li>
+            </ul>
+            <div class="tech-stack"><strong>Technologies:</strong> Java, Spring Boot, REST APIs, Microservices</div>
+        </div>
+
+        <div class="experience-item">
+            <div class="company-header">
+                <div>
+                    <div class="company-name">NEX-C INNOVATIONS</div>
+                    <div class="job-title">Java Full Stack Intern</div>
+                </div>
+                <div class="date-location">6-Month Professional Development Program</div>
+            </div>
+            <ul>
+                <li>Completed an intensive Full Stack Development internship focusing on Core Java, Spring, and Hibernate</li>
+                <li>Built end-to-end web applications and developed RESTful APIs</li>
+                <li>Followed clean code practices and unit testing methodologies in a collaborative development environment</li>
+            </ul>
+            <div class="tech-stack"><strong>Technologies:</strong> Core Java, Spring, Hibernate, REST APIs</div>
+        </div>
+    </div>
+
+    <!-- Technical Projects -->
+    <div class="section">
+        <h2 class="section-title">Technical Projects</h2>
+        
+        <div class="project-item">
+            <div class="company-name">Order Assignment & Delivery Partner Service</div>
+            <ul>
+                <li>Developed a microservice-based system for automated order assignment and delivery routing</li>
+                <li>Implemented real-time delivery routing optimization</li>
+                <li>Designed microservices architecture for scalability</li>
+                <li>Integrated with mapping APIs for route calculation</li>
+            </ul>
+            <div class="tech-stack"><strong>Technologies:</strong> Java, Spring Boot, Microservices, REST APIs</div>
+        </div>
+
+        <div class="project-item">
+            <div class="company-name">Pickle Shop Backend</div>
+            <ul>
+                <li>Built an e-commerce backend system using Java and Spring Boot for managing products, orders, and inventory</li>
+                <li>Implemented complete product management system with categories and inventory tracking</li>
+                <li>Developed order processing and management workflow</li>
+                <li>Created admin dashboard for inventory management</li>
+            </ul>
+            <div class="tech-stack"><strong>Technologies:</strong> Java, Spring Boot, REST APIs, Database</div>
+        </div>
+
+        <div class="project-item">
+            <div class="company-name">DSA Coding Practice Platform</div>
+            <ul>
+                <li>Developed a platform that enables students to learn and practice Data Structures and Algorithms</li>
+                <li>Created interactive coding problems with automated testing</li>
+                <li>Designed structured learning modules for DSA concepts</li>
+                <li>Implemented progress tracking and performance analytics</li>
+            </ul>
+            <div class="tech-stack"><strong>Technologies:</strong> Java, Spring Boot, Web Technologies, Database</div>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+        <h2 class="section-title">Education</h2>
+        
+        <div class="education-item">
+            <div class="company-header">
+                <div class="degree-name">MCA – Master of Computer Applications</div>
+                <div class="date-location">2020 – 2022</div>
+            </div>
+            <div style="color: #666; font-size: 14px;">Cochin University of Science and Technology</div>
+            <div style="color: #0066cc; font-weight: 600; font-size: 14px;">GPA: 9.2</div>
+        </div>
+
+        <div class="education-item">
+            <div class="company-header">
+                <div class="degree-name">BCA – Bachelor of Computer Applications</div>
+                <div class="date-location">2017 – 2020</div>
+            </div>
+            <div style="color: #666; font-size: 14px;">Asansol Girls' College</div>
+            <div style="color: #0066cc; font-weight: 600; font-size: 14px;">GPA: 8.5</div>
+        </div>
+    </div>
+
+    <script>
+        // Auto-print on load (optional - for direct PDF generation)
+        // window.onload = function() { window.print(); }
+    </script>
+</body>
+</html>

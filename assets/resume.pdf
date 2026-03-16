@@ -1,0 +1,43 @@
+# PLACEHOLDER FOR RESUME
+
+This is a placeholder file. 
+
+## ⚠️ IMPORTANT: Replace this with your actual resume PDF!
+
+### How to add your resume:
+
+1. **Create/Export your resume as PDF**
+   - Use your existing resume
+   - Export from Word/Google Docs as PDF
+   - Name it: `resume.pdf`
+
+2. **Replace this file**
+   ```bash
+   # Copy your resume to this location
+   cp /path/to/your/resume.pdf /home/bhanup/Main/Projects/portfolio/assets/resume.pdf
+   ```
+
+3. **Verify the file**
+   ```bash
+   ls -lh /home/bhanup/Main/Projects/portfolio/assets/resume.pdf
+   ```
+
+4. **Commit and push**
+   ```bash
+   git add assets/resume.pdf
+   git commit -m "Add resume PDF"
+   git push
+   ```
+
+### Resume Tips:
+- Keep file size under 2MB
+- Use professional formatting
+- Include: Professional Summary, Experience, Projects, Skills, Education
+- Make sure contact info is visible
+- Save as PDF for universal compatibility
+
+---
+
+After adding your resume, the download buttons will work:
+- Navigation bar "Resume" button
+- Footer "Download Resume" button

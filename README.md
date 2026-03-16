@@ -1,267 +1,273 @@
-# Portfolio Website
+# Portfolio Website - Priya Bhanu
 
-A modern, professional portfolio website inspired by top developer portfolios. Built with HTML, CSS, and JavaScript.
+A professional Java Backend Developer portfolio, exactly like [varadbhogayata.github.io](https://varadbhogayata.github.io/).
 
-![Portfolio Preview](./preview.png)
+**LinkedIn**: https://www.linkedin.com/in/bhanu-priya-0547673b7/
 
-## ✨ Features
-
-- **Clean Professional Design** - Similar to varadbhogayata.github.io
-- **Fully Responsive** - Works on all devices
-- **7 Complete Sections**: Hero, About, Experience, Projects, Skills, Education, Contact
-- **3 Featured Projects** - With detailed accomplishments
-- **Resume Download** - Integrated in navbar, hero, and footer
-- **Contact Form** - With validation
-- **Smooth Animations** - Scroll reveal effects
-- **Mobile Navigation** - Hamburger menu
-- **SEO Optimized** - Meta tags and semantic HTML
+---
 
 ## 📁 Project Structure
 
 ```
 portfolio/
-├── index.html              # Main HTML file
+├── index.html              # Main website
 ├── assets/
-│   ├── css/
-│   │   └── style.css      # All styles
-│   ├── js/
-│   │   └── main.js        # JavaScript functionality
-│   └── resume.pdf         # YOUR RESUME (add this!)
-├── README.md              # This file
-└── .gitignore
+│   ├── css/style.css      # Styling with boxes
+│   ├── js/main.js         # JavaScript
+│   ├── images/            # 📷 Add project screenshots here
+│   ├── resume.html        # 📄 Resume (convert to PDF)
+│   └── resume.pdf         # ⚠️ YOUR RESUME PDF (after conversion)
+└── README.md              # This file
 ```
-
-## 📄 How to Add Your Resume
-
-**IMPORTANT**: Add your resume PDF to make the download links work!
-
-### Step 1: Prepare Your Resume
-- Export/save your resume as a **PDF file**
-- Name it: `resume.pdf`
-- Keep file size under 2MB for faster loading
-
-### Step 2: Add to Project
-Copy your resume to the assets folder:
-```
-portfolio/assets/resume.pdf
-```
-
-### Step 3: Verify It Works
-The resume download will work in 3 locations:
-1. **Navigation bar** - "Resume" button (top right)
-2. **Hero section** - "Download Resume" button
-3. **Footer** - "Download Resume" button
-
-## 🚀 Deployment to GitHub Pages
-
-### Step 1: Create a GitHub Repository
-
-1. Go to [GitHub](https://github.com/) and log in
-2. Click **+** → **New repository**
-3. Name: `username.github.io` (e.g., `Priya-Bhanu07.github.io`)
-4. Make it **Public**
-5. Click **Create repository**
-
-### Step 2: Upload Your Files
-
-**Option A: Using Git Command Line**
-
-```bash
-cd /home/bhanup/Main/Projects/portfolio
-
-# Initialize git
-git init
-
-# Add all files (make sure to add your resume.pdf first!)
-git add .
-
-# Commit
-git commit -m "Initial commit: Portfolio website"
-
-# Add remote (replace with your username)
-git remote add origin https://github.com/Priya-Bhanu07/Priya-Bhanu07.github.io.git
-
-# Push to GitHub
-git branch -M main
-git push -u origin main
-```
-
-**Option B: Using GitHub Web Interface**
-
-1. In your repository, click **uploading an existing file**
-2. Drag and drop ALL files including your `resume.pdf`
-3. Commit with message "Initial commit"
-4. Click **Commit changes**
-
-### Step 3: Enable GitHub Pages
-
-1. Go to repository **Settings** → **Pages**
-2. Under **Source**, select:
-   - Branch: `main`
-   - Folder: `/ (root)`
-3. Click **Save**
-
-### Step 4: Access Your Website
-
-After 2-5 minutes, your site will be live at:
-```
-https://Priya-Bhanu07.github.io/
-```
-
-## 🎨 Customization Guide
-
-### Update Personal Information
-
-Open `index.html` and update:
-
-1. **Hero Section** (lines 27-35):
-```html
-<h1 class="hero-name">YOUR NAME</h1>
-<p class="hero-tagline">Your Title | Developer | etc</p>
-```
-
-2. **Social Links** (lines 43-52):
-```html
-<a href="https://github.com/Priya-Bhanu07" target="_blank">
-<a href="https://linkedin.com/in/yourprofile" target="_blank">
-<a href="mailto:your@email.com">
-```
-
-3. **About Section** (lines 60-75):
-   - Update your bio
-   - Modify highlights (years, projects, technologies)
-
-4. **Experience** (lines 82-150):
-   - Add your work history
-   - Update company names, dates, accomplishments
-   - Modify tech tags
-
-5. **Projects** (lines 157-240):
-   - Update the 3 featured projects
-   - Each project has: title, description, accomplishments, tech stack
-   - Add your GitHub links
-
-6. **Skills** (lines 247-290):
-   - Update skill categories
-   - Add/remove technologies
-
-7. **Education** (lines 297-330):
-   - Add your degrees
-   - Update university, year, GPA
-
-8. **Contact** (lines 337-390):
-   - Update email, location, phone
-
-### Change Colors
-
-Open `assets/css/style.css` and modify (lines 6-18):
-
-```css
-:root {
-    --primary-color: #2563eb;      /* Main brand color (blue) */
-    --primary-dark: #1d4ed8;       /* Darker shade */
-    --text-primary: #0f172a;       /* Main text color */
-    --text-secondary: #475569;     /* Secondary text */
-    /* ... more variables */
-}
-```
-
-### Add Profile Photo (Optional)
-
-1. Add your photo to `assets/images/your-photo.jpg`
-2. Update hero section in `index.html`:
-```html
-<div class="hero-image">
-    <img src="assets/images/your-photo.jpg" alt="Your Name">
-</div>
-```
-
-## 🛠️ Local Development
-
-### Preview Locally
-
-**Using Python:**
-```bash
-cd portfolio
-python -m http.server 8000
-```
-
-**Using Node.js:**
-```bash
-npx http-server -p 8000
-```
-
-**Using VS Code:**
-- Install "Live Server" extension
-- Right-click `index.html` → "Open with Live Server"
-
-Visit: `http://localhost:8000`
-
-## 📱 Browser Support
-
-- Chrome (latest) ✓
-- Firefox (latest) ✓
-- Safari (latest) ✓
-- Edge (latest) ✓
-- Mobile browsers ✓
-
-## 📊 Sections Overview
-
-| Section | Content |
-|---------|---------|
-| **Hero** | Name, tagline, CTAs, social links |
-| **About** | Bio, highlights (experience, projects, tech) |
-| **Experience** | Timeline with 3 positions, accomplishments |
-| **Projects** | 3 featured projects with details |
-| **Skills** | 4 categories (Frontend, Backend, Database, Tools) |
-| **Education** | Degrees, universities, grades |
-| **Contact** | Contact form + contact information |
-
-## 🎯 Key Features Explained
-
-### Resume Download
-- Located in navbar, hero, and footer
-- Downloads `assets/resume.pdf` when clicked
-- Make sure to add your PDF file!
-
-### Project Cards
-- Each shows: title, description, accomplishments (bullet points), tech stack
-- Links to live demo and GitHub
-- Hover effect with shadow and border
-
-### Experience Timeline
-- Clean card design with left border accent
-- Bullet points for accomplishments
-- Tech tags at bottom
-
-### Contact Form
-- Client-side validation
-- Success/error notifications
-- Console logs form data (add backend integration as needed)
-
-## 📝 Checklist Before Deploying
-
-- [ ] Add `resume.pdf` to `assets/` folder
-- [ ] Update all personal information in `index.html`
-- [ ] Update social media links (GitHub, LinkedIn)
-- [ ] Update email address
-- [ ] Customize projects with your work
-- [ ] Update experience with your history
-- [ ] Test locally (`python -m http.server 8000`)
-- [ ] Push to GitHub
-- [ ] Enable GitHub Pages in settings
-- [ ] Test live site
-
-## 🤝 Contributing
-
-Feel free to fork and customize this portfolio for your own use!
-
-## 📧 Contact
-
-For questions or feedback: priya@example.com
 
 ---
 
-**Made with ❤️ by [Priya Bhanu](https://github.com/Priya-Bhanu07)**
+## ⚠️ IMPORTANT: Create Your Resume PDF
 
-Inspired by: [varadbhogayata.github.io](https://varadbhogayata.github.io/)
+### Method 1: Convert resume.html to PDF (Recommended)
+
+1. **Open resume.html in browser**:
+   ```bash
+   xdg-open /home/bhanup/Main/Projects/portfolio/assets/resume.html
+   ```
+   Or double-click the file in your file manager.
+
+2. **Print to PDF**:
+   - Press `Ctrl + P` (Print)
+   - Select **"Save as PDF"** as destination
+   - Set margins to **None** or **Minimum**
+   - Enable **Background graphics** (for colors)
+   - Click **Save**
+   - Save as: `resume.pdf` in the `assets/` folder
+
+3. **Verify**:
+   ```bash
+   ls -lh /home/bhanup/Main/Projects/portfolio/assets/resume.pdf
+   ```
+
+### Method 2: Use Your Existing Resume
+
+If you already have a resume PDF:
+```bash
+cp /path/to/your/resume.pdf /home/bhanup/Main/Projects/portfolio/assets/resume.pdf
+```
+
+---
+
+## 📷 Add Project Images (Optional)
+
+Your portfolio has beautiful gradient boxes with icons. To add actual screenshots:
+
+1. **Prepare images** (600x400px recommended)
+2. **Copy to folder**:
+   ```bash
+   cp your-screenshot.jpg /home/bhanup/Main/Projects/portfolio/assets/images/
+   ```
+3. **Update HTML** in `index.html` (see `assets/images/README.md`)
+
+---
+
+## 🚀 Deploy to GitHub Pages
+
+### 1. Create Resume PDF First
+Follow the steps above to create `resume.pdf`
+
+### 2. Deploy
+```bash
+cd /home/bhanup/Main/Projects/portfolio
+
+# Add all files including resume.pdf
+git add .
+
+# Commit
+git commit -m "Complete portfolio with resume"
+
+# Push
+git push -u origin main
+```
+
+### 3. Enable GitHub Pages
+1. Go to: https://github.com/Priya-Bhanu07/Priya-Bhanu07.github.io/settings/pages
+2. **Branch**: Select `main`
+3. **Folder**: `/ (root)`
+4. Click **Save**
+
+### 4. Wait 2-5 Minutes
+Your site will be live at: **https://Priya-Bhanu07.github.io/**
+
+---
+
+## ✨ What's Included
+
+### ✅ Your Professional Summary
+> "Results-driven Java Backend Developer with 3 years of experience..."
+
+### ✅ Technical Skills (4 Beautiful Boxes)
+- **Languages & Frameworks**: Java 17, Spring Boot, Spring MVC, Hibernate, Microservices, JPA, Spring Security, Spring AI
+- **Web & APIs**: RESTful APIs, JavaScript, HTML5, CSS, jQuery, AJAX, Bootstrap, React
+- **DevOps & Cloud**: Docker, Kubernetes, AWS, CI/CD
+- **Databases**: PostgreSQL, SQL Server
+
+### ✅ Work Experience (3 Positions in Boxes)
+1. **KOTT SOFTWARE** - Software Engineer (Oct 2023 – Jun 2025)
+   - EASE Application project
+   - All 5 accomplishments
+   
+2. **DAIVIKSOFT TECHNOLOGIES** - Software Engineer (Jun 2022 – Jun 2023)
+   - Ritz-Carlton Yacht Collection project
+   - All 4 accomplishments
+   
+3. **NEX-C INNOVATIONS** - Java Full Stack Intern
+   - Professional development program
+   - All accomplishments
+
+### ✅ Technical Projects (3 Cards with Image Boxes)
+1. **Order Assignment & Delivery Partner Service**
+2. **Pickle Shop Backend**
+3. **DSA Coding Practice Platform**
+
+Each with:
+- Icon/image placeholder (gradient box)
+- Project description
+- Key features (bullet points)
+- Technologies used
+- GitHub link
+
+### ✅ Education
+- **MCA** - Cochin University of Science and Technology (9.2 GPA)
+- **BCA** - Asansol Girls' College (8.5 GPA)
+
+### ✅ Contact Section
+- Contact form
+- Email, Location, Availability
+- **GitHub**: https://github.com/Priya-Bhanu07
+- **LinkedIn**: https://www.linkedin.com/in/bhanu-priya-0547673b7/
+
+---
+
+## 🎨 Design Features
+
+- ✅ **Centered single-column layout** (like varadbhogayata.github.io)
+- ✅ **Skills in beautiful boxes** with icons
+- ✅ **Experience in bordered cards** with left accent
+- ✅ **Projects with image placeholders** (gradient boxes with icons)
+- ✅ **Professional color scheme** (Blue #0066cc)
+- ✅ **Responsive design** (mobile, tablet, desktop)
+- ✅ **Smooth scrolling** navigation
+- ✅ **Hover effects** on cards and buttons
+- ✅ **LinkedIn integrated** in hero, contact, and footer
+
+---
+
+## 🖥️ Preview Locally
+
+```bash
+cd /home/bhanup/Main/Projects/portfolio
+python3 -m http.server 8000
+```
+
+Open: http://localhost:8000
+
+Or simply open: `file:///home/bhanup/Main/Projects/portfolio/index.html`
+
+---
+
+## 📝 What to Update in index.html
+
+### Email (Line 60, 300, 336)
+Replace `priya@example.com` with your actual email.
+
+### Phone (Optional - Line 306)
+Update with your phone number.
+
+---
+
+## 📋 Deployment Checklist
+
+- [ ] Resume PDF created from `assets/resume.html`
+- [ ] Resume saved as `assets/resume.pdf`
+- [ ] Email updated in contact section
+- [ ] All experience matches your resume
+- [ ] Projects are accurate
+- [ ] Education is correct
+- [ ] LinkedIn URL is correct: https://www.linkedin.com/in/bhanu-priya-0547673b7/
+- [ ] GitHub URL is correct: https://github.com/Priya-Bhanu07
+- [ ] Tested locally
+- [ ] Pushed to GitHub
+- [ ] GitHub Pages enabled
+- [ ] Live site tested
+
+---
+
+## 🔧 Troubleshooting
+
+**Resume download not working?**
+- Check file is named exactly `resume.pdf` (lowercase)
+- Verify it's in `assets/` folder
+- Clear browser cache (Ctrl + Shift + R)
+
+**Site not showing updates?**
+- Wait 2-5 minutes after pushing
+- Hard refresh: Ctrl + Shift + R
+
+**GitHub Pages not working?**
+- Repository must be: `Priya-Bhanu07.github.io`
+- Repository must be **Public**
+- Check Settings → Pages → Branch = `main`
+
+---
+
+## 📄 Resume Details
+
+Your resume (`resume.html`) includes:
+
+### Header
+- Name: Priya Bhanu
+- Title: Java Backend Developer
+- Contact: Email, Phone, GitHub, LinkedIn
+
+### Sections
+1. **Professional Summary** - Your complete summary
+2. **Technical Skills** - All 4 categories
+3. **Work Experience** - All 3 positions with details
+4. **Technical Projects** - All 3 projects
+5. **Education** - MCA and BCA with GPAs
+
+### To Edit Resume
+1. Open `assets/resume.html` in a text editor
+2. Update your details
+3. Save and convert to PDF again
+
+---
+
+## 🎯 Key Features
+
+| Section | Design |
+|---------|--------|
+| **Skills** | 4 boxes with icons and checkmarks |
+| **Experience** | Cards with left border accent + project names |
+| **Projects** | Gradient boxes with icons (can add images) |
+| **Education** | Cards with GPA badges |
+| **Contact** | Form + info cards + social links |
+| **Resume** | Professional HTML → PDF format |
+
+---
+
+## 📧 Contact Links Updated
+
+All sections now include your correct LinkedIn:
+- **Hero section**: LinkedIn icon
+- **Contact section**: LinkedIn button
+- **Footer**: LinkedIn icon
+
+URL: https://www.linkedin.com/in/bhanu-priya-0547673b7/
+
+---
+
+**Made with ❤️ by Priya Bhanu**
+
+Inspired by: https://varadbhogayata.github.io/
+
+**LinkedIn**: https://www.linkedin.com/in/bhanu-priya-0547673b7/
+
+**GitHub**: https://github.com/Priya-Bhanu07
