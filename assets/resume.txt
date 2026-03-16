@@ -1,0 +1,161 @@
+================================================================================
+                              PRIYA BHANU
+                      Java Backend Developer
+================================================================================
+
+CONTACT INFORMATION
+--------------------------------------------------------------------------------
+Email:    bhanudev295@gmail.com
+Location: Cochin, India (Open to Remote & Relocation)
+GitHub:   https://github.com/Priya-Bhanu07
+LinkedIn: https://www.linkedin.com/in/bhanu-priya-0547673b7/
+
+================================================================================
+PROFESSIONAL SUMMARY
+================================================================================
+
+Results-driven Java Backend Developer with 3 years of experience in enterprise
+application development and professional internships. Skilled in designing
+scalable microservices, optimizing application performance, and building robust
+backend systems using Java 17, Spring Boot, and cloud technologies. Proven
+ability to modernize legacy systems, implement secure coding practices, and
+deliver high-performance backend solutions.
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+
+Languages & Frameworks:
+  • Java 17, Spring Boot, Spring MVC, Hibernate, Microservices
+  • JPA, Spring Security, Spring AI
+
+Web & APIs:
+  • RESTful APIs, JavaScript, HTML5, CSS, jQuery, AJAX, Bootstrap, React
+
+DevOps & Cloud:
+  • Docker, Kubernetes, AWS, CI/CD
+
+Databases:
+  • PostgreSQL, SQL Server
+
+================================================================================
+WORK EXPERIENCE
+================================================================================
+
+Software Engineer | KOTT SOFTWARE, Cochin
+October 2023 – June 2025
+
+Project: EASE Application – Export and Import Automation System
+
+Key Contributions:
+  • Migrated enterprise applications to Java 8, improving performance and
+    scalability
+  • Designed and maintained modular backend services using Spring Boot,
+    Hibernate, and JPA
+  • Developed responsive UI components using Bootstrap and jQuery to enhance
+    user experience
+  • Integrated Jasper Reports for generating analytical and operational reports
+    across modules
+  • Optimized SQL queries and Hibernate mappings, reducing response time by 30%
+
+Technologies: Java 8, Spring Boot, Hibernate, JPA, Bootstrap, jQuery,
+              Jasper Reports, SQL
+
+--------------------------------------------------------------------------------
+
+Software Engineer | DAIVIKSOFT TECHNOLOGIES, Cochin
+June 2022 – June 2023
+
+Project: Ritz-Carlton Yacht Collection & Concierge Portal
+
+Key Contributions:
+  • Developed high-availability backend services for reservation management
+    using Java and Spring Boot
+  • Designed and implemented REST APIs for guest profiles, spa bookings, and
+    dining reservations
+  • Applied strong input validation and security measures to maintain
+    application reliability
+  • Assisted in migrating legacy systems to modern microservices architecture
+
+Technologies: Java, Spring Boot, REST APIs, Microservices
+
+--------------------------------------------------------------------------------
+
+Java Full Stack Intern | NEX-C INNOVATIONS
+6-Month Professional Development Program
+
+Key Contributions:
+  • Completed an intensive Full Stack Development internship focusing on Core
+    Java, Spring, and Hibernate
+  • Built end-to-end web applications and developed RESTful APIs
+  • Followed clean code practices and unit testing methodologies in a
+    collaborative development environment
+
+Technologies: Core Java, Spring, Hibernate, REST APIs
+
+================================================================================
+PROJECTS
+================================================================================
+
+Order Assignment & Delivery Partner Service
+--------------------------------------------------------------------------------
+A microservice-based system for automated order assignment and delivery routing.
+
+Features:
+  • Automated order assignment to delivery partners based on location and
+    availability
+  • Real-time delivery routing optimization
+  • Microservices architecture for scalability
+  • Integration with mapping APIs for route calculation
+
+Technologies: Java, Spring Boot, Microservices, REST APIs
+
+--------------------------------------------------------------------------------
+
+Pickle Shop Backend
+--------------------------------------------------------------------------------
+An e-commerce backend system using Java and Spring Boot for managing products,
+orders, and inventory.
+
+Features:
+  • Complete product management system with categories and inventory tracking
+  • Order processing and management workflow
+  • Shopping cart and checkout functionality
+  • Admin dashboard for inventory management
+
+Technologies: Java, Spring Boot, REST APIs, Database
+
+--------------------------------------------------------------------------------
+
+DSA Coding Practice Platform
+--------------------------------------------------------------------------------
+A platform that enables students to learn and practice Data Structures and
+Algorithms through coding problems and structured learning modules.
+
+Features:
+  • Interactive coding problems with automated testing
+  • Structured learning modules for DSA concepts
+  • Progress tracking and performance analytics
+  • Discussion forums for collaborative learning
+
+Technologies: Java, Spring Boot, Web Technologies, Database
+
+================================================================================
+EDUCATION
+================================================================================
+
+Master of Computer Applications (MCA)
+Cochin University of Science and Technology | 2020 – 2022
+GPA: 9.2
+
+Bachelor of Computer Applications (BCA)
+Asansol Girls' College | 2017 – 2020
+GPA: 8.5
+
+================================================================================
+REFERENCES
+================================================================================
+
+Available upon request.
+
+================================================================================
