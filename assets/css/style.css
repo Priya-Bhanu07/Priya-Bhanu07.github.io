@@ -43,6 +43,11 @@ body {
     line-height: 1.6;
     background: var(--bg-primary);
     padding-top: 0;
+    background-image: 
+        linear-gradient(var(--border-color) 1px, transparent 1px),
+        linear-gradient(90deg, var(--border-color) 1px, transparent 1px);
+    background-size: 50px 50px;
+    background-position: center center;
 }
 
 a {
