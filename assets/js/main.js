@@ -26,16 +26,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     window.addEventListener('scroll', highlightNavLink);
+    highlightNavLink(); // Run once on load
 
     // Smooth Scroll for Anchor Links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             const href = this.getAttribute('href');
             if (href === '#') return;
-            
+
             e.preventDefault();
             const target = document.querySelector(href);
-            
+
             if (target) {
                 const offsetTop = target.offsetTop - 70;
                 window.scrollTo({
