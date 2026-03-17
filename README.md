@@ -1,7 +1,5 @@
 # Portfolio Website - Priya Bhanu
 
-A professional Java Backend Developer portfolio, exactly like [varadbhogayata.github.io](https://varadbhogayata.github.io/).
-
 **LinkedIn**: https://www.linkedin.com/in/bhanu-priya-0547673b7/
 
 ---
